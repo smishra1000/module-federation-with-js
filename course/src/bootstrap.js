@@ -4,7 +4,7 @@ const mount = (el) => {
   let courses = ['Javascript','Vue','React'];
   let coursesText = '';
   for(let i =0;i<courses.length;i++){
-     coursesText = `<div>${courses[i]}</div>`;
+     coursesText = coursesText +  `<div>${courses[i]}</div>`;
   }
  
 
